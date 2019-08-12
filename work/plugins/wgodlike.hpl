@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: wgodlike
+Long-Name: TODO Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-08/13/2019 00:28-wangqingbin)
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Dependencies: structs:1.7
+Plugin-Developers: 
+Libraries: /Users/wangqingbin/IdeaProjects/wqbjp/wgodlike/src/main/res
+ ources,/Users/wangqingbin/IdeaProjects/wqbjp/wgodlike/target/classes,
+ /Users/wangqingbin/.m2/repository/commons-codec/commons-codec/1.11/co
+ mmons-codec-1.11.jar,/Users/wangqingbin/.m2/repository/org/apache/htt
+ pcomponents/httpclient/4.5.8/httpclient-4.5.8.jar,/Users/wangqingbin/
+ .m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4
+ .11.jar
+Resource-Path: /Users/wangqingbin/IdeaProjects/wqbjp/wgodlike/src/main
+ /webapp
+

@@ -1,0 +1,16 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:entry title="平台域名" field="host">
+        <f:textbox default="http://127.0.0.1:8000" />
+    </f:entry>
+    <f:entry title="任务类型" field="service">
+            <f:textbox default="interface(Blueprint)"/>
+        </f:entry>
+    <f:entry title="任务ID" field="task">
+        <f:textbox default="{parameter}"/>
+    </f:entry>
+    <f:advanced>
+        <f:description>Python Test Development Jenkins Plugin V1.0</f:description>
+        <f:description>Create By wGodlike</f:description>
+    </f:advanced>
+</j:jelly>
