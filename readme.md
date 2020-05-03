@@ -6,6 +6,4 @@ https://jenkins.io/zh/doc/developer/tutorial/prepare/
 
 3. mvn clean
 
-4. mvn package# wgodlike
-
-主页访问地址：https://wgodlike.github.io/
+4. mvn package
